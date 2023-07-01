@@ -1,4 +1,5 @@
 import React from 'react'
+import CanBui from '../../images/sd-business-centric-automation-thumbnail.png'
 
 const StraregynDesgin = () => {
     return (
@@ -18,7 +19,7 @@ const StraregynDesgin = () => {
                                     <div className="item">
                                         <div className="ind">
                                             <div className="img-box">
-                                                <img src="../../../../files.techmahindra.com/static/img/sd-business-centric-automation-thumbnail.png" alt="" />
+                                                <img src={CanBui} alt="" />
                                             </div>
                                             <div className="st-bor">
                                                 <p><strong>Canadian energy company realizes value with business-centric approach to automation</strong></p>

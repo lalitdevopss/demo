@@ -1,4 +1,5 @@
 import React from 'react'
+import Innovation from '../../images/innovation-overview.jpg'
 
 const InnovationOverview = () => {
     return (
@@ -58,8 +59,11 @@ const InnovationOverview = () => {
                         </div>
                         <div className="col-6">
                             <a href="../makers-lab/index.html">
-                                <img src="../../../../files.techmahindra.com/static/img/makerlab-newlago.jpg" alt="" /></a>
+                                <img src={Innovation} alt="" /></a>
                         </div>
+                        <p>Our mission is to build smart machines of the future. These smart machines include</p>
+                        <p>solving intelligence at its primal level and then applying that intelligence to products and</p>
+                        <p>IPs.</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../../images/techm-logo.png'
 
 const Footer = () => {
     return (
@@ -34,7 +35,7 @@ const Footer = () => {
             <div className="ft-box-2">
                 <div className="wrapper">
                     <div className="ft-logo">
-                        <a href="index.html"><img src="../../files.techmahindra.com/static/img/techm-logo.png" alt="" /></a>
+                        <a href="index.html"><img src={Logo} alt="" /></a>
                     </div>
                     <div className="ft-links">
                         <div className="country-dropdown common-form-style">

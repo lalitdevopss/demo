@@ -1,4 +1,5 @@
 import React from 'react'
+import InfraCloud from '../../images/infra-cloud.png'
 
 const InfranCloud = () => {
     return (
@@ -14,7 +15,7 @@ const InfranCloud = () => {
                         </div>
                         <div className="col-6">
                             <div className="img-round">
-                                <img src="../../../files.techmahindra.com/static/img/ics-overview-thumbnail.jpg" alt="" />
+                                <img src={InfraCloud} alt="" />
                             </div>
                         </div>
                         <div className="clr"></div>

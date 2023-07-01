@@ -1,8 +1,9 @@
 import React from 'react'
+import Overview from '../../images/overview-image.jpg'
 
 const Communications = () => {
     return (
-        <div id="Overview" className="st-indus-bx-1 common-box-padding samemar">
+        <div id="Overview" className="st-indus-bx-1 common-box-padding samemar" >
             <div className="wrapper">
                 <div className="st-ind-1">
                     <div className="row">
@@ -21,7 +22,7 @@ const Communications = () => {
                         </div>
                         <div className="col-6">
                             <div className="img-round">
-                                <img src="../../../files.techmahindra.com/static/img/overview-image.jpg" alt="" />
+                                <img src={Overview} alt="" />
                             </div>
                         </div>
                         <div className="clr"></div>

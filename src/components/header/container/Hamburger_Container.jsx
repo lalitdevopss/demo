@@ -6,6 +6,7 @@ import HCServices from './HCServices'
 import HCWhoWeAre from './HCWhoWeAre'
 import HCIndustries from './HCIndustries'
 import HCDigitAll from './HCDigitAll'
+import Logo from '../../../images/techm-logo.png'
 
 const Hamburger_Container = () => {
     return (
@@ -13,7 +14,7 @@ const Hamburger_Container = () => {
             <div className="main-links">
                 <div className="menu-close">close</div>
                 <div className="menu-logo">
-                    <a href="index.html"><img src="../../files.techmahindra.com/static/img/techm-logo.png" alt="" /></a>
+                    <a href="index.html"><img src={Logo} alt="" /></a>
                 </div>
                 <ul className="mainmenu">
                     <li className="mb-nav">

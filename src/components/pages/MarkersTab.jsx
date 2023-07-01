@@ -1,4 +1,8 @@
 import React from 'react'
+import Corona from '../../images/corona.jpg'
+import Neuro from '../../images/neuro-ai.png'
+import Sankrit from '../../images/sankrit-img.png'
+
 
 const MarkersTab = () => {
     return (
@@ -32,7 +36,7 @@ const MarkersTab = () => {
                                                 </div>
                                             </div>
                                             <div className="col-7">
-                                                <div className="img-box img-brd-rd"><img src="../../../../files.techmahindra.com/static/img/covid-reserch.jpg" alt="" /></div>
+                                                <div className="img-box img-brd-rd"><img src={Corona} alt="" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -49,7 +53,7 @@ const MarkersTab = () => {
                                                 </div>
                                             </div>
                                             <div className="col-7">
-                                                <div className="img-box img-brd-rd"><img src="../../../../files.techmahindra.com/static/img/neuro-ai.png" alt="" /></div>
+                                                <div className="img-box img-brd-rd"><img src={Neuro} alt="" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +69,7 @@ const MarkersTab = () => {
                                             </div>
 
                                             <div className="col-7">
-                                                <div className="img-box img-brd-rd"><img src="../../../../files.techmahindra.com/static/img/sankrit-img.png" alt="" /></div>
+                                                <div className="img-box img-brd-rd"><img src={Sankrit} alt="" /></div>
                                             </div>
                                         </div>
                                     </div>
