@@ -69,3 +69,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.sec1 {
+  color: #fff;
+  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:
+    transparent;
+}
+
+.sf {
+  margin-top: 50px;
+}

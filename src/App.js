@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Content from './components/content/Content';
-import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import NxtNow from './components/pages/NxtNow';
 import Communications from './components/pages/Communications';
@@ -34,9 +33,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-
-      <Footer />
-
     </>
   );
 }
